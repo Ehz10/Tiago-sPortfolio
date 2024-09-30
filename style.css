@@ -181,6 +181,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
+    gap: 10px 20px;
 }
 .grid-img{
     display: flex;
@@ -203,7 +204,7 @@ section{
     color: aquamarine;
 }
 /* Responsive design */
-@media (max-width: 768px){
+@media (max-width: 1024px){
     html{
         width: calc(100% - 40px);
         height: calc(100% - 40px);
@@ -366,6 +367,8 @@ section{
     .grid-div{
         margin-top: 50px;
         display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
     }
     .grid-img{
         text-align: center;
