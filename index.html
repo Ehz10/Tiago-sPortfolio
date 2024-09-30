@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-button" onclick="switchBurguer(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </div>
+        <!--
+        <i class="fa fa-home"></i>
+        <i class="fa-solid fa-user">
+        <i class="fa-solid fa-laptop-code">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <i class="fa-solid fa-phone"></i>
+        -->
+        <ul class="navbar-ul">
+            <li class="list-item"><a href="#about" onclick="switchBurguer(this)"></i><span>About</span></a></li>
+            <li class="list-item"><a href="#experience" onclick="switchBurguer(this)"></i><span>Experience</span></a></li>
+            <li class="list-item"><a href="#education" onclick="switchBurguer(this)"><span>Education</span></a></li>
+            <li class="list-item"><a href="#contact" onclick="switchBurguer(this)"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+    <div class="backtotop">
+        <a class="backtotop_a">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+    <main id="main">
+        <section class="presentation-desktop">
+            <div class="title-me">
+                <h1>I'm Tiago Rodrigues</h1>
+            </div>
+            <div class="profile-image">
+                <img src="./media/imgs/profile/profileimage.jpeg" alt="profile-image">
+            </div>
+        </section>
+        <section class="presentation-mobile">
+            <div class="title-me">
+                <h1>I'm Tiago Rodrigues</h1>
+            </div>
+            <div class="profile-image">
+                <img src="./media/imgs/profile/profileimage.jpeg" alt="profile-image">
+            </div>
+        </section>
+        <section class="section-info" id="about">
+            <div class="section-content aboutme">
+                <h1>About Me</h1>
+                <div class="div-content">
+                    <p>Currently I'm a student at <a href="https://www.istec.pt/" target="_blank">ISTEC - Instituto Superior de Tecnologias Avançadas</a>, pursuing a Banchelor's degree in Computer Engineering.</p>
+                </div>
+                <div class="grid-learn">
+                    <div class="grid-text">
+                        <p>Learning:</p>
+                    </div>
+                    <div class="grid-icons-learn">
+                        <img class="icon" src="./media/icons/technology/Cimage.png" alt="C">                   
+                        <img class="icon" src="./media/icons/technology/C++image.png" alt="C++">                   
+                    </div>
+                </div>
+                <div class="grid-skill">
+                    <div class="grid-text">
+                        <p>Skills:</p>
+                    </div>
+                    <div class="grid-icons">
+                        <img class="icon" src="./media/icons/technology/pythonicon.png" alt="Python">
+                        <img class="icon" src="./media/icons/technology/htmlicon.png" alt="Html">
+                        <img class="icon" src="./media/icons/technology/cssicon.png" alt="Css">
+                        <img class="icon" src="./media/icons/technology/javascripticon.png" alt="Javascript">
+                        <img class="icon" src="./media/icons/technology/outsystems icon.png" alt="OutSystems">
+                    </div>
+                </div>
+                <a class="resume" href="docs/TiagoRodrigues_Curriculo.pdf" download class="download">Download Resume</a>
+            </div>            
+        </section>
+        <section class="section-info" id="experience">
+            <div class="section-content">
+                <h1>Experience</h1>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/RedshiftImage.png" alt="Redshift">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Redshift</h4>
+                        <p>Internship Contract<br></p>
+                        <p><a href="https://redshift-consulting.com.pt/" target="_blank">Redshift II – Solutions, LDA. </a>(09-2023 to 09-2023)
+                        <br>
+                        Role: Outsystems Developer </p>
+                        <a href="./docs/RSScertificadoestagioTiagoRodrigues.pdf" download class="download">Download Recommendation Letter</a>                     
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/RedshiftImage.png" alt="Redshift">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Redshift</h4>
+                        <p>Very Short-Term Professional Internship Contract <br></p>
+                        <p><a href="https://redshift-consulting.com.pt/" target="_blank">Redshift II – Solutions, LDA. </a>(06-2023 to 08-2023)</p>
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/Addsolutions.png" alt="Addsolutions">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Addsolutions</h4>
+                        <p>Part-time Fixed-Time Employment Contract<br></p>
+                        <p><a href="https://www.addsolutions.today/index.html" target="_blank">Addsolutions – Imagem e Comunicação, LDA </a>(12-2022 to 05-2023)
+                        <br>
+                        Role: Computer Assistant</p>                     
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/Addsolutions.png" alt="Addsolutions">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Addsolutions</h4>
+                        <p>Part-time Fixed-Time Employment Contract<br></p>
+                        <p><a href="https://www.addsolutions.today/index.html" target="_blank">Addsolutions – Imagem e Comunicação, LDA </a>(11-2021 to 11-2022)
+                        <br>
+                        Role: Computer Assistant</p>
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/Addsolutions.png" alt="Addsolutions">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Addsolutions</h4>                        
+                        <p>Professional Internship Contract<br></p>
+                        <p><a href="https://www.addsolutions.today/index.html" target="_blank">Addsolutions – Imagem e Comunicação, LDA </a>(02-2021 to 08-2021)
+                        <br>
+                        Specialized in Electronic Security Services (Installation, Programming, and Maintenance)
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/ProsonicImage.jpg" alt="Prosonic">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Prosonic</h4>
+                        <p>Professional Internship Contract<br></p>
+                        <p><a href="https://www.prosonic.pt/" target="_blank">Prosonic – Produtos de Imgem e Comunicação S.A.</a> (11-2020 to 01-2021)
+                        <br>                
+                        Specialized in Electronic Security Services (Installation, Programming, and Maintenance)
+                        </p>                   
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/work/RedshiftImage.png" alt="Redshift">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Redshift</h4>
+                        <p>On-the-job training (Curricular Internship)<br></p>
+                        <p><a href="https://redshift-consulting.com.pt/" target="_blank">Redshift Consulting </a>(04-2020 to 07-2020)
+                        <br>
+                        Platform: OutSystems
+                        <br>
+                        Mobile-friendly activity management app development
+                        <br>
+                        Final Classification: 16 values</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="section-info" id="education">
+            <div class="section-content">
+                <h1>Education</h1>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/study/ISTEC2-Logo-institucional.png" alt="ISTEC">
+                    </div>
+                    <div class="grid-text">
+                        <h4>ISTEC – Instituto Superior de Tecnologias Avançadas</h4>  
+                        <p>Degree in Computer Engineering (Since at 10-2023) <br></p>
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/study/University_of_Washington_seal.svg.png" alt="Washington">
+                    </div>
+                    <div class="grid-text">
+                        <h4>University of Washington</h4> 
+                        <p>Foundations of Programming (Python) – Online with Real-Time Meetings
+                        <br>
+                        University of Washington (10-2022 to 12-2022)
+                        <br>
+                        Final Classification: 93.1% out of 100%</p>
+                    </div>
+                </div>
+                <div class="grid-div">
+                    <div class="grid-img">
+                        <img src="./media/imgs/study/GustaveEiffel.jpg" alt="Gustave Eiffel">
+                    </div>
+                    <div class="grid-text">
+                        <h4>Escola Profissional Gustave Eiffel</h4>
+                        <p>Escola Profissional Gustave Eiffel (09-2018 to 07-2020)</p>
+                        <p>Specialized in Information Systems Programming, Operating Systems, Communication Networks and Computer Architecture
+                        <br>
+                        Final Classification of the Professional Aptitude Test (PAP): 16 values
+                        </p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="section-info section-contact" id="contact">
+            <div class="section-content contacts">
+                <h1>Contact</h1>
+                <h3>If you are interested in my work, please contact me!</h3>
+                <div class="contentdiv">
+                    <p>Phone: <a href="tel:+351964104627">(+351) 964 104 627</a></p>
+                    <p>Email: <a href="mailto:tiagomidorodrigues@gmail.com">tiagomidorodrigues@gmail.com</a></p>
+                    <p>Linkedin: <a href="https://www.linkedin.com/in/tiago-rodrigues-214741235/" target="_blank">Tiago Rodrigues</a></p>
+                    <p>Github: <a href="https://github.com/Ehz10" target="_blank">Ehz10</a></p>
+                </div>
+            </div>            
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7637055158.js" crossorigin="anonymous"></script>
+</body>
+</html>
